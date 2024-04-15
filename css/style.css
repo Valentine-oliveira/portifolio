@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Manrope", sans-serif;
+}
+
+html {
+    height: 200vh;
+    background-image: linear-gradient(45deg, white, black)
+}
+
+.container {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    padding: 60px 4%;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+
+header.role {
+    background-color: #3c3c41;
+    padding: 20px 4%;
+}
+
+header.role a,
+header.role i {
+    color: rgb(255, 255, 255);
+}
+
+header i {
+    font-size: 30px;
+    color: #fff;
+}
+
+header ul {
+    list-style-type: none;
+}
+
+header ul li {
+    display: inline-block;
+    margin: 0 40px;
+}
+
+header ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.banner {
+    /*arrumar a centralização*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: absolute;
+    left: 90px;
+    top: 80px;
+
+}
+
+.banner section.perfil {
+    width: 700px;
+    height: 600px;
+    border-radius: 50%;
+    box-shadow: 0 0 15px black;
+    display: flex;
+    justify-content: center;
+}
+
+.banner section.perfil .img {
+    position: relative;
+    border-radius: 50%;
+    width: 1000px;
+}
+
+
+.btn-contato button {
+    width: 110px;
+    height: 30px;
+    box-shadow: white 5px 5px 3px;
+    cursor: pointer;
+    transition: .2s;
+    border-radius: 10%;
+}
+
+.texto{
+    align-items: end;
+    justify-content: right;
+    margin: 300px;
+}
